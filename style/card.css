@@ -1,0 +1,12 @@
+.card-container {
+    box-shadow: 5px 5px 0 black;
+}
+
+.card-container:hover {
+    box-shadow: 10px 10px 0 black;
+}
+
+.card-header:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
