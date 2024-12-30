@@ -1,9 +1,8 @@
 import React from "react";
-import Avater from "/home/sankhya/Desktop/Coding/Web/blog-preview-card-main/my-app/asset/image-avatar.webp";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Image from "next/image";
 
-import "/home/sankhya/Desktop/Coding/Web/blog-preview-card-main/my-app/style/card.css"
+
+import "/home/sankhya/Desktop/Coding/Web/Blog-preview-card/style/card.css"
 export default function Home() {
   return (
     <div
@@ -44,8 +43,8 @@ export default function Home() {
           website, defining structure, content, and presentation.
           </p>
         </div>
-        <footer className="d-flex align-items-center ">
-<Image src={Avater} className="p-3" alt="avatar"/>
+        <footer className="d-flex align-items-center gap-1 ">
+<img src="https://images2.imgbox.com/2a/2b/FJ4PFOuw_o.png" className="p-1" style={{height:"15%",width:"15%"}} alt="avatar"/>
 <span className="fw-bold" style={{fontSize:"12px"}}>
   
         Greg Hooper
